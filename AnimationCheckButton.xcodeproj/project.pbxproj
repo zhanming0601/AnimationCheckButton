@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC51EE5B1CF2D6DD002A55AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51EE5A1CF2D6DD002A55AD /* main.m */; };
+		DC51EE5E1CF2D6DD002A55AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51EE5D1CF2D6DD002A55AD /* AppDelegate.m */; };
+		DC51EE611CF2D6DD002A55AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51EE601CF2D6DD002A55AD /* ViewController.m */; };
+		DC51EE641CF2D6DD002A55AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC51EE621CF2D6DD002A55AD /* Main.storyboard */; };
+		DC51EE661CF2D6DD002A55AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC51EE651CF2D6DD002A55AD /* Assets.xcassets */; };
+		DC51EE691CF2D6DD002A55AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC51EE671CF2D6DD002A55AD /* LaunchScreen.storyboard */; };
+		DC51EE741CF2D6DD002A55AD /* AnimationCheckButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51EE731CF2D6DD002A55AD /* AnimationCheckButtonTests.m */; };
+		DC51EE7F1CF2D6DE002A55AD /* AnimationCheckButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51EE7E1CF2D6DE002A55AD /* AnimationCheckButtonUITests.m */; };
+		DC51EE8E1CF2D953002A55AD /* checkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51EE8D1CF2D953002A55AD /* checkButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC51EE701CF2D6DD002A55AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC51EE4E1CF2D6DD002A55AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC51EE551CF2D6DD002A55AD;
+			remoteInfo = AnimationCheckButton;
+		};
+		DC51EE7B1CF2D6DD002A55AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC51EE4E1CF2D6DD002A55AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC51EE551CF2D6DD002A55AD;
+			remoteInfo = AnimationCheckButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC51EE561CF2D6DD002A55AD /* AnimationCheckButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCheckButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC51EE5A1CF2D6DD002A55AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC51EE5C1CF2D6DD002A55AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC51EE5D1CF2D6DD002A55AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC51EE5F1CF2D6DD002A55AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC51EE601CF2D6DD002A55AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC51EE631CF2D6DD002A55AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC51EE651CF2D6DD002A55AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC51EE681CF2D6DD002A55AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC51EE6A1CF2D6DD002A55AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC51EE6F1CF2D6DD002A55AD /* AnimationCheckButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationCheckButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC51EE731CF2D6DD002A55AD /* AnimationCheckButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCheckButtonTests.m; sourceTree = "<group>"; };
+		DC51EE751CF2D6DD002A55AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC51EE7A1CF2D6DD002A55AD /* AnimationCheckButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationCheckButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC51EE7E1CF2D6DE002A55AD /* AnimationCheckButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCheckButtonUITests.m; sourceTree = "<group>"; };
+		DC51EE801CF2D6DE002A55AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC51EE8C1CF2D953002A55AD /* checkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkButton.h; sourceTree = "<group>"; };
+		DC51EE8D1CF2D953002A55AD /* checkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC51EE531CF2D6DD002A55AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC51EE6C1CF2D6DD002A55AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC51EE771CF2D6DD002A55AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC51EE4D1CF2D6DD002A55AD = {
+			isa = PBXGroup;
+			children = (
+				DC51EE581CF2D6DD002A55AD /* AnimationCheckButton */,
+				DC51EE721CF2D6DD002A55AD /* AnimationCheckButtonTests */,
+				DC51EE7D1CF2D6DE002A55AD /* AnimationCheckButtonUITests */,
+				DC51EE571CF2D6DD002A55AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC51EE571CF2D6DD002A55AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC51EE561CF2D6DD002A55AD /* AnimationCheckButton.app */,
+				DC51EE6F1CF2D6DD002A55AD /* AnimationCheckButtonTests.xctest */,
+				DC51EE7A1CF2D6DD002A55AD /* AnimationCheckButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC51EE581CF2D6DD002A55AD /* AnimationCheckButton */ = {
+			isa = PBXGroup;
+			children = (
+				DC51EE5C1CF2D6DD002A55AD /* AppDelegate.h */,
+				DC51EE5D1CF2D6DD002A55AD /* AppDelegate.m */,
+				DC51EE5F1CF2D6DD002A55AD /* ViewController.h */,
+				DC51EE601CF2D6DD002A55AD /* ViewController.m */,
+				DC51EE621CF2D6DD002A55AD /* Main.storyboard */,
+				DC51EE651CF2D6DD002A55AD /* Assets.xcassets */,
+				DC51EE671CF2D6DD002A55AD /* LaunchScreen.storyboard */,
+				DC51EE6A1CF2D6DD002A55AD /* Info.plist */,
+				DC51EE591CF2D6DD002A55AD /* Supporting Files */,
+				DC51EE8C1CF2D953002A55AD /* checkButton.h */,
+				DC51EE8D1CF2D953002A55AD /* checkButton.m */,
+			);
+			path = AnimationCheckButton;
+			sourceTree = "<group>";
+		};
+		DC51EE591CF2D6DD002A55AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC51EE5A1CF2D6DD002A55AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC51EE721CF2D6DD002A55AD /* AnimationCheckButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC51EE731CF2D6DD002A55AD /* AnimationCheckButtonTests.m */,
+				DC51EE751CF2D6DD002A55AD /* Info.plist */,
+			);
+			path = AnimationCheckButtonTests;
+			sourceTree = "<group>";
+		};
+		DC51EE7D1CF2D6DE002A55AD /* AnimationCheckButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC51EE7E1CF2D6DE002A55AD /* AnimationCheckButtonUITests.m */,
+				DC51EE801CF2D6DE002A55AD /* Info.plist */,
+			);
+			path = AnimationCheckButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC51EE551CF2D6DD002A55AD /* AnimationCheckButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC51EE831CF2D6DE002A55AD /* Build configuration list for PBXNativeTarget "AnimationCheckButton" */;
+			buildPhases = (
+				DC51EE521CF2D6DD002A55AD /* Sources */,
+				DC51EE531CF2D6DD002A55AD /* Frameworks */,
+				DC51EE541CF2D6DD002A55AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationCheckButton;
+			productName = AnimationCheckButton;
+			productReference = DC51EE561CF2D6DD002A55AD /* AnimationCheckButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC51EE6E1CF2D6DD002A55AD /* AnimationCheckButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC51EE861CF2D6DE002A55AD /* Build configuration list for PBXNativeTarget "AnimationCheckButtonTests" */;
+			buildPhases = (
+				DC51EE6B1CF2D6DD002A55AD /* Sources */,
+				DC51EE6C1CF2D6DD002A55AD /* Frameworks */,
+				DC51EE6D1CF2D6DD002A55AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC51EE711CF2D6DD002A55AD /* PBXTargetDependency */,
+			);
+			name = AnimationCheckButtonTests;
+			productName = AnimationCheckButtonTests;
+			productReference = DC51EE6F1CF2D6DD002A55AD /* AnimationCheckButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC51EE791CF2D6DD002A55AD /* AnimationCheckButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC51EE891CF2D6DE002A55AD /* Build configuration list for PBXNativeTarget "AnimationCheckButtonUITests" */;
+			buildPhases = (
+				DC51EE761CF2D6DD002A55AD /* Sources */,
+				DC51EE771CF2D6DD002A55AD /* Frameworks */,
+				DC51EE781CF2D6DD002A55AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC51EE7C1CF2D6DD002A55AD /* PBXTargetDependency */,
+			);
+			name = AnimationCheckButtonUITests;
+			productName = AnimationCheckButtonUITests;
+			productReference = DC51EE7A1CF2D6DD002A55AD /* AnimationCheckButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC51EE4E1CF2D6DD002A55AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhanming;
+				TargetAttributes = {
+					DC51EE551CF2D6DD002A55AD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DC51EE6E1CF2D6DD002A55AD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DC51EE551CF2D6DD002A55AD;
+					};
+					DC51EE791CF2D6DD002A55AD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DC51EE551CF2D6DD002A55AD;
+					};
+				};
+			};
+			buildConfigurationList = DC51EE511CF2D6DD002A55AD /* Build configuration list for PBXProject "AnimationCheckButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC51EE4D1CF2D6DD002A55AD;
+			productRefGroup = DC51EE571CF2D6DD002A55AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC51EE551CF2D6DD002A55AD /* AnimationCheckButton */,
+				DC51EE6E1CF2D6DD002A55AD /* AnimationCheckButtonTests */,
+				DC51EE791CF2D6DD002A55AD /* AnimationCheckButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC51EE541CF2D6DD002A55AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC51EE691CF2D6DD002A55AD /* LaunchScreen.storyboard in Resources */,
+				DC51EE661CF2D6DD002A55AD /* Assets.xcassets in Resources */,
+				DC51EE641CF2D6DD002A55AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC51EE6D1CF2D6DD002A55AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC51EE781CF2D6DD002A55AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC51EE521CF2D6DD002A55AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC51EE611CF2D6DD002A55AD /* ViewController.m in Sources */,
+				DC51EE5E1CF2D6DD002A55AD /* AppDelegate.m in Sources */,
+				DC51EE8E1CF2D953002A55AD /* checkButton.m in Sources */,
+				DC51EE5B1CF2D6DD002A55AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC51EE6B1CF2D6DD002A55AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC51EE741CF2D6DD002A55AD /* AnimationCheckButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC51EE761CF2D6DD002A55AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC51EE7F1CF2D6DE002A55AD /* AnimationCheckButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC51EE711CF2D6DD002A55AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC51EE551CF2D6DD002A55AD /* AnimationCheckButton */;
+			targetProxy = DC51EE701CF2D6DD002A55AD /* PBXContainerItemProxy */;
+		};
+		DC51EE7C1CF2D6DD002A55AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC51EE551CF2D6DD002A55AD /* AnimationCheckButton */;
+			targetProxy = DC51EE7B1CF2D6DD002A55AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC51EE621CF2D6DD002A55AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC51EE631CF2D6DD002A55AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC51EE671CF2D6DD002A55AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC51EE681CF2D6DD002A55AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC51EE811CF2D6DE002A55AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC51EE821CF2D6DE002A55AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC51EE841CF2D6DE002A55AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimationCheckButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanming.text.AnimationCheckButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC51EE851CF2D6DE002A55AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimationCheckButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanming.text.AnimationCheckButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC51EE871CF2D6DE002A55AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimationCheckButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanming.text.AnimationCheckButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationCheckButton.app/AnimationCheckButton";
+			};
+			name = Debug;
+		};
+		DC51EE881CF2D6DE002A55AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimationCheckButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanming.text.AnimationCheckButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationCheckButton.app/AnimationCheckButton";
+			};
+			name = Release;
+		};
+		DC51EE8A1CF2D6DE002A55AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimationCheckButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanming.text.AnimationCheckButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationCheckButton;
+			};
+			name = Debug;
+		};
+		DC51EE8B1CF2D6DE002A55AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimationCheckButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanming.text.AnimationCheckButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationCheckButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC51EE511CF2D6DD002A55AD /* Build configuration list for PBXProject "AnimationCheckButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC51EE811CF2D6DE002A55AD /* Debug */,
+				DC51EE821CF2D6DE002A55AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC51EE831CF2D6DE002A55AD /* Build configuration list for PBXNativeTarget "AnimationCheckButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC51EE841CF2D6DE002A55AD /* Debug */,
+				DC51EE851CF2D6DE002A55AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC51EE861CF2D6DE002A55AD /* Build configuration list for PBXNativeTarget "AnimationCheckButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC51EE871CF2D6DE002A55AD /* Debug */,
+				DC51EE881CF2D6DE002A55AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC51EE891CF2D6DE002A55AD /* Build configuration list for PBXNativeTarget "AnimationCheckButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC51EE8A1CF2D6DE002A55AD /* Debug */,
+				DC51EE8B1CF2D6DE002A55AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC51EE4E1CF2D6DD002A55AD /* Project object */;
+}
